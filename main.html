@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+    /*navbar*/
+        .container{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background: #242222;
+        }
+        .item{
+            margin-right: 40px;
+        }
+        
+        .container a:hover{
+            color: red;
+            border-bottom: 3px red solid;
+        }
+        body{
+            background: black;
+        }
+        .container a{
+            color: white;
+        }
+        
+        .home{
+            color: white;
+            display: flex;
+        }
+        .container1{
+            margin: 150px 150px 110px 200px;
+        }
+        .container2{
+            margin: 150px 200px 110px 150px; 
+        }
+        .myimg{
+            border-radius: 50%;
+            box-shadow: 0 0 25px;
+        }
+        .item2{
+            margin-bottom: 10px;
+        }
+        .item3{
+            margin-bottom: 10px;
+            font-size: 50px;
+            color: red;
+        }
+    /*aboutme*/
+
+        .aboutme{
+            display: flex;
+            margin-bottom: 200px;
+        }
+        .mydesc{
+            color: white;
+            margin-right: 150px;
+            font-size: 25px;
+            margin-top: 180px;
+        }
+        .myimg2{
+            margin-left: 150px;
+            margin-right: 50px;
+            margin-top: 80px;
+            border-radius: 50%;
+        }
+    /*projects*/
+    .projects .projectss{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        color: white;
+    }
+
+
+        
+        
+    </style>
+</head>
+<!-- navbar -->
+<body>
+    <div class="container">
+        <div class="item"><a href="#">HOME</a></div>
+        <div class="item"><a href="#about">ABOUT ME</a></div>
+        <div class="item"><a href="#">PROJECTS</a></div>
+        <div class="item"><a href="#">CV</a></div>
+        <div class="item1"><a href="#">CONTACT</a></div>
+    </div>
+<!--about me-->    
+    
+<section class="home">
+    <div class="container1">
+        <h2 class="item2">Hi, my name is</h2>
+        <h1 class="item3">Safouane Rady</h1>
+        <p class="description">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet earum mollitia
+        incidunt debitis inventore, quas porro quos officiis? Quibusdam magnam necessita
+        ibus dolorum a atque voluptatem sed illum quisquam sequi perferendis omnis fuga f
+        acere eligendi, non dolor officiis ut iste voluptas nihil tempore, hic numquam vo
+        luptatibus nobis. Adipisci nostrum earum corporis.
+        </p>
+    </div>
+    <div class="container2">
+        <img src="/images/gojo.jpg" alt="my image" class="myimg" height="250" width="250">
+    </div>
+</section>
+
+<section class="aboutme" id="about">
+    <div>
+        <img src="/images/gojo1.jpg" alt="my image" height="500" width="300" class="myimg2">
+    </div>
+    <div>
+        <p class="mydesc">
+            I'm a passionate web developer with a focus on front-end development, 
+            specializing in creating user-friendly websites. I work with HTML, CSS, 
+            JavaScript, and frameworks like React and Angular to build interactive 
+            and responsive user experiences.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint minus 
+            fugiat quae. Modi maiores ex nesciunt dolorum, obcaecati fuga nam asp
+            eriores consectetur illo, tempore perferendis voluptates quidem libero
+            accusantium! Beatae, cum. Aspernatur quis fugiat itaque quasi? Nam vo
+            luptatem quibusdam culpa voluptatibus, quos repellat magnam neque, aut
+            em provident, dolorem est ab?
+        </p>
+    </div>
+</section>
+<!--projects-->
+
+
+    
+</section>
+
+    
+    
+</body>
+</html>
+
+
+
+
